@@ -1,5 +1,4 @@
 package lessonDZ1;
-
 import java.util.Scanner;
 import java.lang.Math;
 
