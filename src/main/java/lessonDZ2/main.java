@@ -36,7 +36,6 @@ public class main {
         String fileName = "fileSem2.txt";
         makeFileWord(fileName, path, makeWord(100, "TEXT"), false);
         readFileWord(fileName, path);
-
     }
 
     private static void makeFileWord(String file, String path, String text, boolean recordType) {
