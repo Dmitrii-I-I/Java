@@ -11,7 +11,6 @@ public class main {
         task1();
 //        task2();
 //        task3();
-
     }
 
     private static void task1() {
