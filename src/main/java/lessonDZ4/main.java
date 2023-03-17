@@ -26,9 +26,9 @@ public class main {
 
     private static void task2() {
         LinkedList<String> listData = initialList();
-        System.out.println("Исходный список");
+        System.out.println("Исходный список:");
         printStringList(listData, true);
-        System.out.println("Инверсированный список");
+        System.out.println("Инверсированный список:");
         printStringList(listData, false);
         printStringArray(listData);
     }
