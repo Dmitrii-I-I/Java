@@ -1,12 +1,11 @@
 package lessonDZ4;
-
 // 1. Реализовать консольное приложение, которое:
 //    Принимает от пользователя и “запоминает” строки.
 //    Если введено print, выводит строки так, чтобы последняя введенная была первой в списке, а первая - последней.
 //    Если введено revert, удаляет предыдущую введенную строку из памяти.
 // 2. Пусть дан LinkedList с несколькими элементами. Реализуйте метод, который вернет “перевернутый” список.
 
-import javax.sound.midi.Soundbank;
+
 import java.util.*;
 
 public class main {
@@ -34,21 +33,21 @@ public class main {
         printStringArray(listData);
     }
 
-    private static void printStringArray(LinkedList stringList) {
+    private static void printStringArray(LinkedList<String> stringList) {
         if (emptyLinkedList(stringList)) {
             return;
         }
         String[] listArray = new String[stringList.size()];
         for (int i = stringList.size() - 1; i >= 0; i--) {
-            listArray[stringList.size() - 1 - i] = stringList.get(i).toString();
+            listArray[stringList.size() - 1 - i] = stringList.get(i);
         }
         System.out.println(String.join(" ", Arrays.toString(listArray)));
     }
 
-    private static LinkedList initialList() {
+    private static LinkedList<String> initialList() {
         List<String> stringList = new LinkedList<>();
         stringList.addAll(dataExample);
-        return (LinkedList) stringList;
+        return (LinkedList<String>) stringList;
     }
 
 
