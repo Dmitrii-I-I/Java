@@ -1,10 +1,12 @@
 package lessonDZ6;
 
-import javax.xml.crypto.dsig.spec.XSLTTransformParameterSpec;
-import java.sql.PreparedStatement;
-import java.sql.SQLOutput;
-import java.util.*;
-
+import java.util.ArrayList;
+import java.util.Map;
+import java.util.List;
+import java.util.Set;
+import java.util.Scanner;
+import java.util.HashSet;
+import java.util.HashMap;
 
 // 1. Подумать над структурой класса Ноутбук для магазина техники - выделить поля и методы. Реализовать в java.
 // 2. Создать множество ноутбуков (ArrayList).
